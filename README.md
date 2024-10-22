@@ -22,6 +22,7 @@ Function maximizeProfitBottomUp(customTotalSize, customPrices)
 
     Return dp[customTotalSize]
 ```
+![image](https://github.com/user-attachments/assets/389e016e-70bd-4697-afc0-ba992d0d0a3f)
 
 **⏲ Time Complexity**: `O(customTotalSize × n)`  
 This approach efficiently computes the result by building up solutions and avoids redundant calculations using a dynamic programming table.
@@ -95,6 +96,7 @@ Memoization avoids redundant calculations and optimizes the recursion depth, imp
   Reads from the file and creates a square matrix and a pattern matrix.
 - **Pattern Search**:  
   Compares diagonal positions in the matrix for pattern matching.
+![image](https://github.com/user-attachments/assets/3129079c-8511-4eb4-ad4e-cec6240d0714)
 
 **⏲ Time Complexity**: `O(N^2 * M^2)`  
 The comparison process involves nested loops to scan matrix diagonals, where `N` is the size of the matrix and `M` the pattern matrix.
@@ -121,9 +123,8 @@ Function calculatePathTime(path)
 - **Reading path times**: `O(n)`
 - **Path calculation**: `O(p × m)`  
   Efficient for multiple queries using a preprocessed map for fast lookups.
+![image](https://github.com/user-attachments/assets/00679517-cdbf-4f41-9c75-f5e53ac5d717)
 
----
-Sure! Here's the **README.md** section for **Part B of Question 3** with appropriate explanations and time complexity analysis:
 
 ---
 
@@ -162,6 +163,7 @@ Function findMinMaxPathTime():
 
 3. **Result**:
     - The function returns the path with the minimum time, its time, the path with the maximum time, and its time.
+![image](https://github.com/user-attachments/assets/77dbf9fe-e1eb-457c-8e76-ddcff1d194a4)
 
 #### ⏳ **Time Complexity Analysis**:
 
@@ -185,6 +187,7 @@ Overall time complexity:
 
 #### 📝 **Conclusion**:
 The current approach provides an efficient way to calculate both the minimum and maximum path times in one pass over the paths, with a time complexity of `O(p * m)`. This ensures optimal performance, especially for large sets of paths.
+![image](https://github.com/user-attachments/assets/f5a6441b-dee5-4182-a3fb-3c49cf5b8b64)
 
 ## ✅ Summary
 
